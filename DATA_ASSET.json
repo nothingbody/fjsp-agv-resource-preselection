@@ -1,0 +1,9 @@
+{
+  "name": "fjsp_agv_key_data_public_v1.zip",
+  "bytes": 53778475,
+  "sha256": "aae51e18618ca64cf7bc3cfcfa7a250686902ca7c35318c350f14d6b17f6d1cb",
+  "url": "https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/download/v1.0.0/fjsp_agv_key_data_public_v1.zip",
+  "license": "CC-BY-4.0",
+  "snapshot_date": "2026-09-13",
+  "manuscript_alignment": "3.8.1; final 23-contrast sensitivity added separately in repository"
+}

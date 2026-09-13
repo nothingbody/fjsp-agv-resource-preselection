@@ -1,0 +1,1 @@
+Run `python analysis/revise_statistics.py` to reconstruct the retrospective uncertainty sensitivity from five supplied saved summaries. It writes analysis/reproduction, evidence/UNCERTAINTY_SENSITIVITY.json and tables/uncertainty_sensitivity.tex. No optimizer is invoked. Original frozen estimates and original test families are retained.

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/
+verification/data/
+verification/instances/
+analysis/reproduction/
+analysis/evidence/UNCERTAINTY_SENSITIVITY.json
+analysis/tables/*.tex
+*.zip

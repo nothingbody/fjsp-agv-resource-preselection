@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this versioned code and selected-data release; the accompanying manuscript is not yet an accepted publication."
+title: "Resource-demand preselection for FJSP-AGV scheduling: code and selected computational evidence"
+authors:
+  - family-names: Wang
+    given-names: Qingyou
+version: 1.0.0
+date-released: 2026-09-14
+url: "https://github.com/nothingbody/fjsp-agv-resource-preselection"
+repository-code: "https://github.com/nothingbody/fjsp-agv-resource-preselection"
+license: MIT

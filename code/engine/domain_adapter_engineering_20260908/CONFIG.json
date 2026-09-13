@@ -1,0 +1,44 @@
+{
+  "arm": "nsga2_vns_reverse_adapted",
+  "protocol": "domain_adapter_engineering_v2_singleton_guard",
+  "population": 100,
+  "crossover": 0.8,
+  "mutation": 0.2,
+  "local_seeds": 10,
+  "local_actions": 8,
+  "reverse_min": 0.2,
+  "reverse_max": 0.7,
+  "variation_seed_xor": 8881,
+  "cases": [
+    {
+      "kind": "single",
+      "dataset": "synthetic",
+      "name": "single",
+      "budget": 233
+    },
+    {
+      "kind": "unequal",
+      "dataset": "synthetic",
+      "name": "unequal",
+      "budget": 577
+    },
+    {
+      "kind": "benchmark",
+      "dataset": "brandimarte",
+      "name": "Mk02.fjs",
+      "budget": 1001
+    },
+    {
+      "kind": "benchmark",
+      "dataset": "brandimarte",
+      "name": "Mk06.fjs",
+      "budget": 2500
+    }
+  ],
+  "seeds": [
+    9082301,
+    9082302
+  ],
+  "workers": 4,
+  "timeout": 900
+}

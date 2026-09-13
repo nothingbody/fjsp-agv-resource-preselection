@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "date": "2026-09-14",
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:20:58) [GCC 14.3.0]",
+  "fresh_path": "/tmp/fjsp_agv_public_release_20260914",
+  "original_project_on_pythonpath": false,
+  "scope": "Two evidence-arithmetic checks and ten short engine smoke tests; not full trajectory replication. Scientific engines run from a relocated copy, using the preinstalled scientific Python environment.",
+  "tests": [
+    {
+      "name": "check_records",
+      "exit": 0,
+      "seconds": 1.500678725540638,
+      "stdout": "{\"status\": \"PASS\", \"primary\": {\"cells\": 240, \"bases\": 16, \"mean\": 0.02478467563209115}, \"equal_time\": {\"cells\": 240, \"bases\": 16, \"mean\": 0.01588649814397581}, \"nsga2\": {\"cells\": 240, \"bases\": 16, \"mean\": 0.015848297711154702}, \"pools_checked\": 1920, \"pool_means\": {\"top1\": 0.5239583333333333, \"tau_b\": 0.46857638888888886, \"regret\": 0.008324407087534487, \"captured_fraction\": 0.5405566983256491}, \"scope\": \"saved run-metric aggregation and independent pool arithmetic, not optimizer replication\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "check_effects",
+      "exit": 0,
+      "seconds": 36.42880301363766,
+      "stdout": "{\"status\": \"PASS\", \"checked_contrasts\": 23, \"checks\": \"means, exact sign flips, exact Wilcoxon ranks, Holm families\", \"scope\": \"arithmetic verification of supplied effects; not optimizer replication\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "primary",
+      "exit": 0,
+      "seconds": 1.6621786877512932,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"primary\", \"output\": \"outputs/primary.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "random",
+      "exit": 0,
+      "seconds": 1.5565560180693865,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"primary\", \"output\": \"outputs/random.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "ucb",
+      "exit": 0,
+      "seconds": 3.734364476054907,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"primary\", \"output\": \"outputs/ucb.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "physical2",
+      "exit": 0,
+      "seconds": 1.5721746236085892,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"pool\", \"output\": \"outputs/physical2.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "exact2",
+      "exit": 0,
+      "seconds": 1.4600547105073929,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"pool\", \"output\": \"outputs/exact2.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "exact4",
+      "exit": 0,
+      "seconds": 1.4848043527454138,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"pool\", \"output\": \"outputs/exact4.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "nsga2",
+      "exit": 0,
+      "seconds": 1.68664919026196,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"nsga2\", \"output\": \"outputs/nsga2.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "no_service",
+      "exit": 0,
+      "seconds": 1.6292998157441616,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"model\", \"output\": \"outputs/no_service.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "rightshift",
+      "exit": 0,
+      "seconds": 1.6641512122005224,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"model\", \"output\": \"outputs/rightshift.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "time",
+      "exit": 0,
+      "seconds": 2.9865553732961416,
+      "stdout": "{\"status\": \"PASS\", \"family\": \"time\", \"output\": \"outputs/time.json\", \"scope\": \"new execution, not automatically an exact replay of published cells\"}\n",
+      "stderr": ""
+    }
+  ]
+}

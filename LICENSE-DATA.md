@@ -1,0 +1,1 @@
+Author-generated data and result tables are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode . Attribute Qingyou Wang and this versioned release. This license does not override third-party rights in original benchmark inputs, which are not redistributed.

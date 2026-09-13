@@ -1,0 +1,445 @@
+{
+  "curation": "Only existing data/instance inputs required by public checkers; original source_context omitted in favor of code/engine.",
+  "files": {
+    "data/primary_run_metrics.json.gz": {
+      "source_member": "01_manuscript_results/study30/RUN_METRICS.json.gz",
+      "sha256": "22583a7f4687062123066125499c004bbe342ca73ef6147b732bd55ea51336f2",
+      "bytes": 549936
+    },
+    "data/audited_pools.json.gz": {
+      "source_member": "02_metrics_and_mechanism/AUDITED_POOLS.json.gz",
+      "sha256": "5372a0ff8c2001aba09781be20760c13b700888c964dc38fe958da8bd4c50e96",
+      "bytes": 1916309
+    },
+    "data/enhancement_endpoint_metrics.json.gz": {
+      "source_member": "04_enhancement_3_8/ENDPOINT_METRICS.json.gz",
+      "sha256": "b56a59bc2612f05809f06e8b7196010f239b9890cecdd77f475c65011d9a5338",
+      "bytes": 9358215
+    },
+    "data/component_timings.json.gz": {
+      "source_member": "02_metrics_and_mechanism/cost/RAW_TIMINGS.json.gz",
+      "sha256": "3b851b381bac0f3f3513d6639d1f27e8f6c1d3db07443f12f0b10d61b4fb111a",
+      "bytes": 314714
+    },
+    "data/equal_step_cells.json.gz": {
+      "source_member": "02_metrics_and_mechanism/reference_and_pool_checks/EQUAL_STEP_CELLS.json.gz",
+      "sha256": "53a393f340d89c8cf7be4990d6016565d0b0da59eb9ca1d35c7965e1246907df",
+      "bytes": 588997
+    },
+    "data/reference_exclusion_cells.json.gz": {
+      "source_member": "02_metrics_and_mechanism/reference_and_pool_checks/TABLE7_REFERENCE_CELLS.json.gz",
+      "sha256": "1c7f686ec2571c859ad50a2d43404d798b96b5c6388f11dc0ceb4e5026107b84",
+      "bytes": 116345
+    },
+    "data/variant_metrics.json.gz": {
+      "source_member": "02_metrics_and_mechanism/search_analysis/ALL_VARIANT_METRICS.json.gz",
+      "sha256": "3988989303c4414081b2709b97edc5a56249efd773b12b45f8c1bcfd57a91643",
+      "bytes": 8465565
+    },
+    "data/saved_front_metrics.json.gz": {
+      "source_member": "02_metrics_and_mechanism/metrics/SAVED_FRONT_METRICS.json.gz",
+      "sha256": "a7c16d82305327d383ba50a4c38beb36bf4e743dc7b51379a23d91b6745e7615",
+      "bytes": 12462894
+    },
+    "instances/comp30_medium_high_00_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_00_a1_t015.json",
+      "sha256": "9102d06bbd9b1bb456330f0ce653c4140b76857d38568b3f290ea63f8c29636e",
+      "bytes": 135178
+    },
+    "instances/comp30_medium_high_00_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_00_a1_t060.json",
+      "sha256": "4e748bd2d150e3faca0fc8e878af1826c3ae03d1e1d3589e2d70bb13446a0dad",
+      "bytes": 135164
+    },
+    "instances/comp30_medium_high_00_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_00_a3_t030.json",
+      "sha256": "e54c89d27ef655e7d8f6f40b653dfddbe47d7806fc9eb68903d532dfafb8bf3b",
+      "bytes": 135155
+    },
+    "instances/comp30_medium_high_00_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_00_a5_t015.json",
+      "sha256": "51ad32bf784010412efc88eb06742ec315bbcfda69329449a37af3b9015e6d98",
+      "bytes": 135178
+    },
+    "instances/comp30_medium_high_00_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_00_a5_t060.json",
+      "sha256": "5fb0827c8c07a94ffb118af37cd2c22c023b20f9623e6ec82e6223e74b2687f3",
+      "bytes": 135164
+    },
+    "instances/comp30_medium_high_01_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_01_a1_t015.json",
+      "sha256": "cec3450b535670ee8fb9c3d8a1f58a735a8446033978dbcf6e5c822cb06dda38",
+      "bytes": 131937
+    },
+    "instances/comp30_medium_high_01_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_01_a1_t060.json",
+      "sha256": "c3f4d82f8c13376d4e2b72081f748328757bdcbffdc2a5344749b41744ce58fd",
+      "bytes": 131920
+    },
+    "instances/comp30_medium_high_01_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_01_a3_t030.json",
+      "sha256": "13eca1767b7df691e3c75fada5574ca3b415a6575bd2672c20a6276380d3b23c",
+      "bytes": 131909
+    },
+    "instances/comp30_medium_high_01_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_01_a5_t015.json",
+      "sha256": "ecde8e36a64c44118f47e8610f1aa2fb590d83c4ce6f604eaffa69104e796ad6",
+      "bytes": 131937
+    },
+    "instances/comp30_medium_high_01_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_01_a5_t060.json",
+      "sha256": "cabac250cc22f46eea91cac475d7cd6f419f2b01fb7c822154fd6a94111b4a20",
+      "bytes": 131920
+    },
+    "instances/comp30_medium_high_02_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_02_a1_t015.json",
+      "sha256": "51c898f3ebadeb67408e442f9806c71ee847096f0667436449268756bd8651b1",
+      "bytes": 124744
+    },
+    "instances/comp30_medium_high_02_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_02_a1_t060.json",
+      "sha256": "fa87ccea7b7d0b12ec6b545dd2a6a887d2ebc420aa73e1ca8790ad8c7938dec2",
+      "bytes": 124752
+    },
+    "instances/comp30_medium_high_02_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_02_a3_t030.json",
+      "sha256": "ed60deb257a92eb16ff4386f44d9783cfdccb350dfd61dc9b5b10e1d1c4d221b",
+      "bytes": 124708
+    },
+    "instances/comp30_medium_high_02_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_02_a5_t015.json",
+      "sha256": "606be2f5f41f13d2006c5684ba7c0f91da12c7e4a6fadc13204d2b86e7fa3a16",
+      "bytes": 124744
+    },
+    "instances/comp30_medium_high_02_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_02_a5_t060.json",
+      "sha256": "db6c5b8f5beb1bdc6ced085ff431e157bfce3bded838748f3cb41f0cd6ea2092",
+      "bytes": 124752
+    },
+    "instances/comp30_medium_high_03_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_03_a1_t015.json",
+      "sha256": "33a00db2bdc57fde1cf564f78868e85c9d2f5bdc7630b08281be611c64de5ee5",
+      "bytes": 126372
+    },
+    "instances/comp30_medium_high_03_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_03_a1_t060.json",
+      "sha256": "e041771d37deafe3939fe8f2e184b1b6c7c2d3c81545f2db5e989cf4da0d15d7",
+      "bytes": 126376
+    },
+    "instances/comp30_medium_high_03_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_03_a3_t030.json",
+      "sha256": "275c4bd3352ace6a04d3b1b1f7709b22f7d3adeb5cfb3a6eac2526bafd724ab3",
+      "bytes": 126345
+    },
+    "instances/comp30_medium_high_03_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_03_a5_t015.json",
+      "sha256": "e706ef001de10bc4062c5d93fde2420612ec1739510ee2c10f621cc1b55960ce",
+      "bytes": 126372
+    },
+    "instances/comp30_medium_high_03_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_high_03_a5_t060.json",
+      "sha256": "7cae88e80dc91f4a2381b38be5ebed81c15183fd995423a55ac64ea3afa0fca7",
+      "bytes": 126376
+    },
+    "instances/comp30_medium_low_00_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_00_a1_t015.json",
+      "sha256": "d44ba7c484095c593e626807adff6993edcfd1d119cdec0ff64d2e54cda31988",
+      "bytes": 58305
+    },
+    "instances/comp30_medium_low_00_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_00_a1_t060.json",
+      "sha256": "293d417b262f4c8028f6740911d6f1483b4215aa1d104fe30e9e1ea22903d4a3",
+      "bytes": 58279
+    },
+    "instances/comp30_medium_low_00_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_00_a3_t030.json",
+      "sha256": "10974eb642fbd1dcccaeda7956ac50d58e3d01e7457378af55fae94f6e0913ac",
+      "bytes": 58241
+    },
+    "instances/comp30_medium_low_00_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_00_a5_t015.json",
+      "sha256": "80a1ac825bd127fb5eb9fa394d64ae2749e119ceb865b9692e54d1c7e34c367d",
+      "bytes": 58305
+    },
+    "instances/comp30_medium_low_00_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_00_a5_t060.json",
+      "sha256": "ea7316ce3e823d827d3ccfed7be9672e8b611cdc19562acd00abbb87d8c15e87",
+      "bytes": 58279
+    },
+    "instances/comp30_medium_low_01_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_01_a1_t015.json",
+      "sha256": "f25775ba3cd55e8ba919247ae0744a17482f5fb37163f38ce16222fd411309ac",
+      "bytes": 57794
+    },
+    "instances/comp30_medium_low_01_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_01_a1_t060.json",
+      "sha256": "0810108d4b6b38ebba68c95237fd3303fa5386afa6c67686c1d5d03d41813221",
+      "bytes": 57771
+    },
+    "instances/comp30_medium_low_01_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_01_a3_t030.json",
+      "sha256": "e5dbbf3bba1884520e0c7704623433e9acca803a799b40ccebe071a15322aa74",
+      "bytes": 57753
+    },
+    "instances/comp30_medium_low_01_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_01_a5_t015.json",
+      "sha256": "4e08424e2d01bd58c08762c07360dc0d05bba62d023260b923c72e679ef7ee91",
+      "bytes": 57794
+    },
+    "instances/comp30_medium_low_01_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_01_a5_t060.json",
+      "sha256": "1566159e2e3f4658f8de12d81d60cce682855ff215c4d78cd89525146d6fc9e0",
+      "bytes": 57771
+    },
+    "instances/comp30_medium_low_02_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_02_a1_t015.json",
+      "sha256": "333fcce18ef7bc35752d3a5382697a78cfb307192c94291fa080a30cf7879dcc",
+      "bytes": 59669
+    },
+    "instances/comp30_medium_low_02_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_02_a1_t060.json",
+      "sha256": "f73c27d49daaab4a46fcdf2ef5448b18499162654ec5b8b0c2cceb7337261b1b",
+      "bytes": 59666
+    },
+    "instances/comp30_medium_low_02_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_02_a3_t030.json",
+      "sha256": "c296bd48854a403b1c52a78746a8d18c588b9812e9a1508a03f895eaf6d62be6",
+      "bytes": 59642
+    },
+    "instances/comp30_medium_low_02_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_02_a5_t015.json",
+      "sha256": "f9e12bfcd50a2dbc20bb18faef18cef945a98812b2d792ec5718fc552a9d2995",
+      "bytes": 59669
+    },
+    "instances/comp30_medium_low_02_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_02_a5_t060.json",
+      "sha256": "9b7ce8c9140a571759c94f2bd8d6e334ae14d45792f48fc427efd8245d28ae28",
+      "bytes": 59666
+    },
+    "instances/comp30_medium_low_03_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_03_a1_t015.json",
+      "sha256": "9547ca8a28a741101cf9944fe06f52a26114dc470e88f67fe9d64765ba007714",
+      "bytes": 58495
+    },
+    "instances/comp30_medium_low_03_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_03_a1_t060.json",
+      "sha256": "c8508332cc792eb3927de78194bbc1ead5ccf0ae32b2ad2817a3260b576bdff7",
+      "bytes": 58496
+    },
+    "instances/comp30_medium_low_03_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_03_a3_t030.json",
+      "sha256": "c31f5f01c116c6a505663263975878e3efc0bbac07c1cfc3a88c018a77f51e1b",
+      "bytes": 58462
+    },
+    "instances/comp30_medium_low_03_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_03_a5_t015.json",
+      "sha256": "16c43407feca472c3229686dd631d9d86a0e93888cf0ed778427e27e17ec11f1",
+      "bytes": 58495
+    },
+    "instances/comp30_medium_low_03_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_medium_low_03_a5_t060.json",
+      "sha256": "99cd07264d4a1ffc18d43d9d31a36a63a25a3783135a7f54d6774255e4dd2ac6",
+      "bytes": 58496
+    },
+    "instances/comp30_small_high_00_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_00_a1_t015.json",
+      "sha256": "24d934d2a81482ad6bd20e5e679f3bd5050cc4e5cecd3bb97d9aeefd534859a3",
+      "bytes": 16746
+    },
+    "instances/comp30_small_high_00_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_00_a1_t060.json",
+      "sha256": "2c76b04b8260f759444b000e8d2f6aa2fab9f5269537f733879690771a9ee786",
+      "bytes": 16746
+    },
+    "instances/comp30_small_high_00_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_00_a3_t030.json",
+      "sha256": "e770d3e373d513abac14929fa423c42d748cd5393d63b93eb8038913e6ac78b5",
+      "bytes": 16733
+    },
+    "instances/comp30_small_high_00_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_00_a5_t015.json",
+      "sha256": "061c497058f0cfca7f65a07b1431d8b5ccd1dc77328f508bedbe3d621ce5eebc",
+      "bytes": 16746
+    },
+    "instances/comp30_small_high_00_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_00_a5_t060.json",
+      "sha256": "55cb811108fabc10b86bd36e76e91c19aa117cd6643f3b10b40a284581085fb6",
+      "bytes": 16746
+    },
+    "instances/comp30_small_high_01_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_01_a1_t015.json",
+      "sha256": "0c2eb3415f67d6fd66b24bec7d7d483354ddb28054961296053206396eecf88a",
+      "bytes": 18477
+    },
+    "instances/comp30_small_high_01_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_01_a1_t060.json",
+      "sha256": "07026f189c2429a1fa48bc13ef305bca783d4d4a307887e42067cbaa67538449",
+      "bytes": 18483
+    },
+    "instances/comp30_small_high_01_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_01_a3_t030.json",
+      "sha256": "f22446fc3e901a9c6cf76f5b979d8a9d61e7dba5da67114885d2ba53461b3fd0",
+      "bytes": 18473
+    },
+    "instances/comp30_small_high_01_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_01_a5_t015.json",
+      "sha256": "172be89b0954584da8e0d8f69f69b9a3ae018331d5919f06cf6d350b52473403",
+      "bytes": 18477
+    },
+    "instances/comp30_small_high_01_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_01_a5_t060.json",
+      "sha256": "cce853d396e911506ca52f76e048d2c6ba7b4fdf4d5b997365678709df7619c3",
+      "bytes": 18483
+    },
+    "instances/comp30_small_high_02_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_02_a1_t015.json",
+      "sha256": "2bc04875cb3b3314974dc599b712aa90abdacf305e985de2ae7e388bda21d1d3",
+      "bytes": 18195
+    },
+    "instances/comp30_small_high_02_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_02_a1_t060.json",
+      "sha256": "d551c2a09b7b8213cf3ca4019a5689a26c8a375d796570e777201c3f76884eeb",
+      "bytes": 18180
+    },
+    "instances/comp30_small_high_02_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_02_a3_t030.json",
+      "sha256": "76c9987daf0c375bd79b453b6899d9fdf6cab4646f9c3af90f6d70556b9826eb",
+      "bytes": 18188
+    },
+    "instances/comp30_small_high_02_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_02_a5_t015.json",
+      "sha256": "ef9f2eead4c397da4afa98db91459b47e15c5b7dc802e1bac6d91280bad9dfe9",
+      "bytes": 18195
+    },
+    "instances/comp30_small_high_02_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_02_a5_t060.json",
+      "sha256": "4af8fc6be86869fb8b0c06d3edde6f97b159bb67d8255e244274116d9058389b",
+      "bytes": 18180
+    },
+    "instances/comp30_small_high_03_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_03_a1_t015.json",
+      "sha256": "fa0bcc29c01a5e610bec5e7043b2cc33728b4aaf4a1741cd8bdaf5f0c241b680",
+      "bytes": 16475
+    },
+    "instances/comp30_small_high_03_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_03_a1_t060.json",
+      "sha256": "6b9c27f825dce6302a3e7845c7cfba2a5a2da100ceb8924ef055504ee4c8aad2",
+      "bytes": 16480
+    },
+    "instances/comp30_small_high_03_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_03_a3_t030.json",
+      "sha256": "348825f8b87e72c4c328f39e71e76880a882c501f7c574a69d5b07e02ed9a16a",
+      "bytes": 16463
+    },
+    "instances/comp30_small_high_03_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_03_a5_t015.json",
+      "sha256": "d7510191c04c15ed64c6288e32b410620546a8071555238b9c1e81de1c47c3a0",
+      "bytes": 16475
+    },
+    "instances/comp30_small_high_03_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_high_03_a5_t060.json",
+      "sha256": "8c874c9c19f31524da6310c5a3c520e22c025c562eb0b8af36ea6de788fdf858",
+      "bytes": 16480
+    },
+    "instances/comp30_small_low_00_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_00_a1_t015.json",
+      "sha256": "6e0bfeac5eb37c9abfeab1bb060979883fa0413a9ce3ebba4e0b68029be53840",
+      "bytes": 12129
+    },
+    "instances/comp30_small_low_00_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_00_a1_t060.json",
+      "sha256": "22e80a036adc7d55d3c60d5c4636f44637d3f84ac26caf1afd8341f20b8b86b7",
+      "bytes": 12132
+    },
+    "instances/comp30_small_low_00_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_00_a3_t030.json",
+      "sha256": "fb27d338aef42f0bfeccd044fee348f17501643e093f80d99eca25b1142f7d76",
+      "bytes": 12115
+    },
+    "instances/comp30_small_low_00_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_00_a5_t015.json",
+      "sha256": "c2653a07d232a9016f75b152c9b11f853c8834e3257bc5b41aa029ade009b490",
+      "bytes": 12129
+    },
+    "instances/comp30_small_low_00_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_00_a5_t060.json",
+      "sha256": "6e3fe0e451ad68772e78cb0817515a59363509ed7e6abd260b7e455eb45b1c6d",
+      "bytes": 12132
+    },
+    "instances/comp30_small_low_01_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_01_a1_t015.json",
+      "sha256": "1d848baeae5e945a5dd121f387351c50e0602d07e911dbbdc02c451b0d225fdf",
+      "bytes": 12098
+    },
+    "instances/comp30_small_low_01_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_01_a1_t060.json",
+      "sha256": "30c0ac64c1e7214cb32667c32988ea4b64b133d6571c0469895b1717ae2673a0",
+      "bytes": 12098
+    },
+    "instances/comp30_small_low_01_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_01_a3_t030.json",
+      "sha256": "25e352451412e0ff21ce5a2b920d5f7231bda9ccbe312317df6aa0f5c9ee3286",
+      "bytes": 12077
+    },
+    "instances/comp30_small_low_01_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_01_a5_t015.json",
+      "sha256": "9c62d0ea0f4132436da9518f1b0242f021c4e7afe85f2d143698172f6ee6be22",
+      "bytes": 12098
+    },
+    "instances/comp30_small_low_01_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_01_a5_t060.json",
+      "sha256": "67bff298e3913a34fe3d2a811785e71d47c796c8db41a6288800ba92ced90e24",
+      "bytes": 12098
+    },
+    "instances/comp30_small_low_02_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_02_a1_t015.json",
+      "sha256": "1cc6a237bcad7628093bd8ac7d8d9019d6a8c32680510c967d07c82d35c47a91",
+      "bytes": 11421
+    },
+    "instances/comp30_small_low_02_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_02_a1_t060.json",
+      "sha256": "f52f5ebb8eb0a424119521fd04c0cf3c07699a51861b493a2dc15620faa04c9b",
+      "bytes": 11416
+    },
+    "instances/comp30_small_low_02_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_02_a3_t030.json",
+      "sha256": "b89226f5db62d44fb679e27517aab551b621c44c1e1e4ca5da8059704a3351e6",
+      "bytes": 11407
+    },
+    "instances/comp30_small_low_02_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_02_a5_t015.json",
+      "sha256": "b094940e9f5690eb144afaa6f2c02b179ddc4320658a9d85893dc3752c306972",
+      "bytes": 11421
+    },
+    "instances/comp30_small_low_02_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_02_a5_t060.json",
+      "sha256": "964933fefeebb86cbca1785514e8bc56e61f754e0840c358e605c0511239c816",
+      "bytes": 11416
+    },
+    "instances/comp30_small_low_03_a1_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_03_a1_t015.json",
+      "sha256": "7edd2be518d046690322034315069ccdf9c3896529f8ac5ad6c466e8004e65aa",
+      "bytes": 10580
+    },
+    "instances/comp30_small_low_03_a1_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_03_a1_t060.json",
+      "sha256": "d42f2a52f30ad36cad7b3aa1fc2c9cf52e37d9174884e025aef670936d119b63",
+      "bytes": 10576
+    },
+    "instances/comp30_small_low_03_a3_t030.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_03_a3_t030.json",
+      "sha256": "6c57519a8818f647ace91e0786f72755f48c36a2be4dad07a46a65bba5e94274",
+      "bytes": 10567
+    },
+    "instances/comp30_small_low_03_a5_t015.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_03_a5_t015.json",
+      "sha256": "6d10dcab97e06be2a462eeee35872331b386c68d31a63dd7d3a92084b6d3e91d",
+      "bytes": 10580
+    },
+    "instances/comp30_small_low_03_a5_t060.json": {
+      "source_member": "05_generated_instances/study30/comp30_small_low_03_a5_t060.json",
+      "sha256": "69fe7685602cdbea1d7075c2e366edd477610223c5d0fd8260f80d9153495965",
+      "bytes": 10576
+    }
+  }
+}
