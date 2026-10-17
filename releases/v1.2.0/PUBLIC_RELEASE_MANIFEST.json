@@ -1,0 +1,28 @@
+{
+  "version": "v1.2.0",
+  "release_url": "https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.2.0",
+  "author": "Qingyou Wang",
+  "author_authorized": true,
+  "assets": [
+    {
+      "name": "fjsp_agv_extended_evidence_v1.2.0.zip",
+      "bytes": 285314447,
+      "sha256": "8bb08079775b8126e8de9ee112e385e777301eb2af5b1a2c06799d492f759450",
+      "members": 11439
+    },
+    {
+      "name": "fjsp_agv_extended_source_v1.2.0.zip",
+      "bytes": 1312011,
+      "sha256": "3b133070e8817eb1014275d54e9368ac6cdcbd61ea712436b36db3bf81896886",
+      "members": 424
+    },
+    {
+      "name": "README_v1.2.0.md",
+      "bytes": 5116,
+      "sha256": "004260db893897d735bea10e349064e1f691829082f168ec8939e586a2f50ebf"
+    }
+  ],
+  "all_six_missing_sources_recovered": true,
+  "no_new_formal_runs": true,
+  "DN_original_inputs_acquired_upstream": true
+}

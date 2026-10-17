@@ -1,5 +1,19 @@
 # Resource-demand preselection for FJSP-AGV scheduling
 
+## Current extended evidence release v1.2.0
+
+The [v1.2.0 release](https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.2.0) supplies the completed October experiments, selected endpoint/final-solution data, recovered historical preparation and model-sensitivity code, original dependence-group evidence, and frozen MOEA/D configuration. It accompanies the revised manuscript *Resource-demand preselection for flexible job-shop scheduling with automated guided vehicles: evaluation efficiency and runtime trade-offs* by Qingyou Wang.
+
+Download the complete `fjsp_agv_extended_evidence_v1.2.0.zip` or the smaller source-only ZIP from that release. Use the release SHA256SUMS and per-file manifest for integrity checks. The five October cohorts comprise 6,320 compact runs; the original processing-panel study also supplies 1,140 selected run records. Favorable, null and unfavorable results remain included. Large per-step histories and private correspondence are excluded.
+
+DN source inputs are acquired directly from their original fixed-version source using the supplied restoration tool. The public DN loading adapter is separately identified from the preserved original source hashes. Author-owned code uses MIT and generated results use CC BY 4.0; third-party inputs/helpers retain their own notices. The earlier v1.0.0/v1.1.0 releases remain unchanged. No DOI has been assigned to this GitHub release.
+
+See [the versioned release guide](releases/v1.2.0/README.md) for coverage and reproduction instructions.
+
+## Earlier v1.0.0 implementation guide
+
+The following guide documents the original implementation snapshot. Later studies are supplied by v1.2.0 above.
+
 Code and selected computational evidence accompanying **Resource-demand preselection for flexible job-shop scheduling with automated guided vehicles: evidence under evaluation and time budgets**, by Qingyou Wang (research manuscript, 2026; not an accepted article).
 
 ## Start here
