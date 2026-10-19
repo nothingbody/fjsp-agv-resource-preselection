@@ -1,0 +1,19 @@
+{
+  "protocol": "s3_eval_cost_scaling_20261018_v1",
+  "delays_ms": [
+    10,
+    25,
+    50
+  ],
+  "arms": [
+    "always",
+    "nsga2",
+    "nsga2_pre",
+    "moead"
+  ],
+  "tasks": 2880,
+  "passed": 2880,
+  "failed": 0,
+  "hours": 5.1041139172183145,
+  "finished_utc": "2026-10-18T20:41:11Z"
+}

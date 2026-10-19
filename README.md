@@ -1,6 +1,16 @@
 # Resource-demand preselection for FJSP-AGV scheduling
 
-## Current extended evidence release v1.2.0
+## Supplementary studies release v1.3.0
+
+The [v1.3.0 release](https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.3.0) adds three studies used in the revised manuscript *Resource-bound preselection for flexible job-shop scheduling with automated guided vehicles: when analytic candidate ranking pays off*. In that manuscript the method is called resource-bound preselection (RBP); the earlier Always-scored configuration is RBP, and Physical-four is RBP-P4.
+
+- An equal-evaluation comparison of scoring periods (RBP, RBP-P8, RBP-P4, Random-four).
+- Comparisons with standard NSGA-II and MOEA/D at 10,000 evaluations and at 120 s, including an NSGA-II preselection plug-in.
+- An evaluation-cost study that adds 10, 25, or 50 ms to every exact evaluation.
+
+Code, protocols, analysis outputs, and 5,760 per-run summaries are in [supplementary_studies_20261018/](supplementary_studies_20261018/README.md). Complete per-run records are attached to the release as `full_run_records_20261018.tar`. Everything below, including v1.2.0, is unchanged.
+
+## Extended evidence release v1.2.0
 
 The [v1.2.0 release](https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.2.0) supplies the completed October experiments, selected endpoint/final-solution data, recovered historical preparation and model-sensitivity code, original dependence-group evidence, and frozen MOEA/D configuration. It accompanies the revised manuscript *Resource-demand preselection for flexible job-shop scheduling with automated guided vehicles: evaluation efficiency and runtime trade-offs* by Qingyou Wang.
 

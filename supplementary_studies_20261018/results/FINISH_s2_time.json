@@ -1,0 +1,16 @@
+{
+  "protocol": "s2_standard_moea_20261018_v1",
+  "mode": "time",
+  "arms": [
+    "nsga2",
+    "moead",
+    "nsga2_pre",
+    "p4",
+    "always"
+  ],
+  "tasks": 1200,
+  "passed": 1200,
+  "failed": 0,
+  "hours": 2.1484004643890593,
+  "finished_utc": "2026-10-18T14:45:24Z"
+}
