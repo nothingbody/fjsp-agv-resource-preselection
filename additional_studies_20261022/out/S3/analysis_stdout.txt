@@ -1,0 +1,108 @@
+== primary
+rbp - dqnma                                                 -1 hv_normali +0.045445 [+0.041964, +0.049259] 16/0/0 p=3.05e-05 holm=0.000122
+rbp - ilmpea                                                -1 hv_normali +0.046466 [+0.041319, +0.051812] 16/0/0 p=3.05e-05 holm=0.000122
+dqnma_rbp - dqnma                                           -1 hv_normali +0.017038 [+0.016154, +0.017882] 16/0/0 p=3.05e-05 holm=0.000122
+ilmpea_rbp - ilmpea                                         -1 hv_normali +0.007842 [+0.006339, +0.009386] 16/0/0 p=3.05e-05 holm=0.000122
+== reproduction checks
+ilmpea - dqnma                                              -1 hv_normali -0.001021 [-0.005997, +0.003395] 7/0/9 p=0.881
+dqnma - nsga2t                                              -1 hv_normali -0.000082 [-0.002623, +0.002390] 9/0/7 p=0.976
+ilmpea - nsga2t                                             -1 hv_normali -0.001103 [-0.006136, +0.003725] 7/0/9 p=0.83
+== secondary
+rbp - nsga2t                                                -1 hv_normali +0.045363 [+0.043894, +0.046955] 16/0/0 p=3.05e-05
+rbp - dqnma_rbp                                             -1 hv_normali +0.028407 [+0.024723, +0.032321] 16/0/0 p=3.05e-05
+rbp - ilmpea_rbp                                            -1 hv_normali +0.038624 [+0.033152, +0.044078] 16/0/0 p=3.05e-05
+rbp - dqnma                                                 -2 hv_normali +0.047167 [+0.043797, +0.050652] 16/0/0 p=3.05e-05
+rbp - ilmpea                                                -2 hv_normali +0.044133 [+0.038616, +0.049888] 16/0/0 p=3.05e-05
+dqnma_rbp - dqnma                                           -2 hv_normali +0.015593 [+0.014369, +0.016794] 16/0/0 p=3.05e-05
+ilmpea_rbp - ilmpea                                         -2 hv_normali +0.006344 [+0.004992, +0.007729] 16/0/0 p=3.05e-05
+rbp - dqnma [hv_wide_normalized]                            -1 hv_wide_no +0.045587 [+0.043358, +0.048064] 16/0/0 p=3.05e-05
+rbp - ilmpea [hv_wide_normalized]                           -1 hv_wide_no +0.041381 [+0.036641, +0.046154] 16/0/0 p=3.05e-05
+dqnma_rbp - dqnma [hv_wide_normalized]                      -1 hv_wide_no +0.014659 [+0.013868, +0.015432] 16/0/0 p=3.05e-05
+ilmpea_rbp - ilmpea [hv_wide_normalized]                    -1 hv_wide_no +0.006217 [+0.004895, +0.007553] 16/0/0 p=3.05e-05
+rbp - dqnma [objective_minima0]                             -1 objective_ +0.139018 [+0.129926, +0.147646] 16/0/0 p=3.05e-05
+rbp - ilmpea [objective_minima0]                            -1 objective_ +0.063762 [+0.050239, +0.077197] 14/0/2 p=0.000183
+ilmpea - dqnma [objective_minima0]                          -1 objective_ +0.070963 [+0.051933, +0.089589] 10/0/6 p=0.023
+rbp - dqnma [objective_minima1]                             -1 objective_ +0.095366 [+0.083421, +0.106142] 16/0/0 p=3.05e-05
+rbp - ilmpea [objective_minima1]                            -1 objective_ +0.075263 [+0.060435, +0.089571] 15/0/1 p=6.1e-05
+ilmpea - dqnma [objective_minima1]                          -1 objective_ +0.021343 [+0.012343, +0.029946] 11/0/5 p=0.011
+rbp - dqnma [objective_minima2]                             -1 objective_ +0.466095 [+0.401794, +0.526335] 15/0/1 p=6.1e-05
+rbp - ilmpea [objective_minima2]                            -1 objective_ +0.432779 [+0.374977, +0.488797] 16/0/0 p=3.05e-05
+ilmpea - dqnma [objective_minima2]                          -1 objective_ -0.639111 [-1.045871, -0.294537] 8/0/8 p=0.0446
+{
+ "nsga2t": {
+  "hv": 0.2764769381851946,
+  "evaluations": 20000,
+  "cpu_ratio": 0.9998117634604948,
+  "eval_share": 0.5192665740582224,
+  "score_share": 0.0,
+  "min_makespan": 1225.528692311164,
+  "min_energy": 34250.07177782426,
+  "min_workload": 9.354166666666579,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "dqnma_rbp": {
+  "hv": 0.2934335542188337,
+  "evaluations": 20000,
+  "cpu_ratio": 0.9997775461785027,
+  "eval_share": 0.3976158254399036,
+  "score_share": 0.2618509651074821,
+  "trainings": 6919.704166666666,
+  "train_seconds": 14.099915273140262,
+  "min_makespan": 1233.7676334782134,
+  "min_energy": 34709.768721689135,
+  "min_workload": 17.754166666666546,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "ilmpea_rbp": {
+  "hv": 0.28321641108093043,
+  "evaluations": 20000,
+  "cpu_ratio": 0.9997753185239491,
+  "eval_share": 0.3692453362335914,
+  "score_share": 0.18536274328114455,
+  "offline_evaluations": 7402.141666666666,
+  "offline_seconds": 72.3366914497065,
+  "expert_samples": 1016.1208333333333,
+  "min_makespan": 1058.2367969809122,
+  "min_energy": 33620.8322559487,
+  "min_workload": 21.44583333333324,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbp": {
+  "hv": 0.32184021741215857,
+  "evaluations": 20000,
+  "cpu_ratio": 0.999842322106658,
+  "eval_share": 0.37472906285389546,
+  "score_share": 0.2400306547601701,
+  "min_makespan": 963.6806692378375,
+  "min_energy": 30286.027407501097,
+  "min_workload": 8.683333333333273,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "dqnma": {
+  "hv": 0.27639526539488474,
+  "evaluations": 20000,
+  "cpu_ratio": 0.9996349365007011,
+  "eval_share": 0.5542768665306563,
+  "score_share": 0.0,
+  "trainings": 7155.045833333334,
+  "train_seconds": 14.37029430518378,
+  "min_makespan": 1322.1643353178383,
+  "min_energy": 35552.06215948606,
+  "min_workload": 19.65416666666652,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "ilmpea": {
+  "hv": 0.27537401420576335,
+  "evaluations": 20000,
+  "cpu_ratio": 0.9998371398016441,
+  "eval_share": 0.46053560729079496,
+  "score_share": 0.0,
+  "offline_evaluations": 7402.141666666666,
+  "offline_seconds": 72.42197999551621,
+  "expert_samples": 1016.1208333333333,
+  "min_makespan": 1084.5755716323158,
+  "min_energy": 33864.28527601333,
+  "min_workload": 23.179166666666568,
+  "runs_cpu_ratio_below_0_9": 0
+ }
+}

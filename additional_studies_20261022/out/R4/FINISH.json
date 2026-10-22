@@ -1,0 +1,12 @@
+{
+  "protocol": "exp3_rivals_20261020_v1",
+  "tasks_file": "tasks/R4.json",
+  "tasks": 1440,
+  "attempted": 1440,
+  "passed": 1440,
+  "failed": 0,
+  "formal": true,
+  "lock_sha256": "cfa3c03ecf4d32fff352bff5f0613b6bb647eed90adf70df77c64fefbd442810",
+  "hours": 4.050486309395896,
+  "finished_utc": "2026-10-21T03:55:01Z"
+}

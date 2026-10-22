@@ -1,0 +1,13 @@
+{
+  "protocol": "exp2_20261019_v1",
+  "tasks_file": "tasks/B2e.json",
+  "tasks": 1920,
+  "attempted": 1920,
+  "passed": 1920,
+  "failed": 0,
+  "formal": true,
+  "lock_sha256": "6ec7f44f3397539eb99c1c3bce280f7acab7eadd22d4f2320684485a0d0893cf",
+  "code_sha256": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "hours": 2.7432150750690036,
+  "finished_utc": "2026-10-19T14:29:36Z"
+}

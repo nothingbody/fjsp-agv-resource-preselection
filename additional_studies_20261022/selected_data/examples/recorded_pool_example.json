@@ -1,0 +1,90 @@
+{
+  "source_run": "pool_replay__comp30_medium_high_00_a1_t015_909302001_de_proxy",
+  "all_exact_tied": false,
+  "base_id": "comp30_medium_high_00",
+  "captured_local_value": -2.9171191903361313,
+  "exact_g": [
+    0.40322231358547217,
+    0.4023519709429769,
+    0.5389388080290212,
+    0.4043716163496192
+  ],
+  "exact_objectives": [
+    [
+      3060.4904664863525,
+      63835.39985768071,
+      1789.0
+    ],
+    [
+      3093.4785543572584,
+      63654.301004881905,
+      1811.0
+    ],
+    [
+      3011.9861098541214,
+      86979.31322329487,
+      1395.0
+    ],
+    [
+      3052.6997312105786,
+      64014.60578647813,
+      1796.0
+    ]
+  ],
+  "exact_tie_count": 1,
+  "kendall_tau_b": -0.6666666666666666,
+  "name": "comp30_medium_high_00_a1_t015",
+  "proxy_g": [
+    0.3859772925180257,
+    0.3905675274924333,
+    0.3295041070982274,
+    0.3874241516720389
+  ],
+  "proxy_objectives": [
+    [
+      2638.6493885054624,
+      48358.31768514619,
+      1789.0
+    ],
+    [
+      2646.4378095191137,
+      48420.7370730068,
+      1811.0
+    ],
+    [
+      2486.252561029164,
+      52274.944002596574,
+      1395.0
+    ],
+    [
+      2597.0759075392234,
+      48351.5295788921,
+      1796.0
+    ]
+  ],
+  "range_normalized_regret": 1.0,
+  "regime": "a1_t015",
+  "regret": 0.13658683708604424,
+  "scale": [
+    3662.030813493824,
+    108781.16518474313,
+    1895.0000000000005
+  ],
+  "seed": 909302001,
+  "selected": 2,
+  "stage": "early",
+  "step": 860,
+  "stratum": "medium_high",
+  "top1": false,
+  "weight": [
+    0.01,
+    0.625,
+    0.375
+  ],
+  "source_member": "02_metrics_and_mechanism/AUDITED_POOLS.json.gz",
+  "source_member_sha256": "5372a0ff8c2001aba09781be20760c13b700888c964dc38fe958da8bd4c50e96",
+  "selection_rule": "First non-tied top1=false record in archived order",
+  "record_count": 1920,
+  "exact_best_zero_based": 1,
+  "selected_gap": 0.20943470093079375
+}

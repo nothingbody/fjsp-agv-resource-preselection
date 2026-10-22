@@ -1,0 +1,20 @@
+{
+ "protocol": "exp3_rivals_20261020_v1",
+ "study": "R3",
+ "files": {
+  "exp2_core.py": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "exp3_rivals.py": "2d8fcd4306ef62b00f4506837e7e2d32595b3f85fdbe01b16b8e2efce1f46237",
+  "exp3_run.py": "8265d0f35526dfb8401a6f9c510197da55adf48e5d7dbf52f67772c93772f786",
+  "exp3_tasks.py": "45ab9e5938b918d5e52ec7868267cff34d1ea8759ce51ca5e8081fbdc0b7222e",
+  "exp3_selftest.py": "c09e52ded4e8389b02c9752b25c9f7a2af3f0dffaa7be4c1af24eed8462f7738",
+  "PROTOCOL_exp3.md": "6071f04bc817b15da418fcca9862f7add7362e5689c6dc8f62d20f99f2444cc8",
+  "inputs/INPUT_MANIFEST.json": "38f739fdc59a9d2ce3d47899f8eaacd701c9e353d67b8439a3957b15dce28c6e",
+  "SELECTION.json": "6899cbfcd861d1768d30df63029c40e9769e4fdb58e1ccc3d92e73dc6a5171f3",
+  "ENV_FREEZE.txt": "43eb248bf57e472060aad9967b94f0657ea0659682857cdc8672caebe3e28130"
+ },
+ "tasks_file": "tasks/R3.json",
+ "tasks_sha256": "109ea2b29f6f5976bb7110aaced6d03fc05c8b5aa98db84d229c6b53b9f8c824",
+ "tasks": 1440,
+ "created_utc": "2026-10-20T15:15:46Z",
+ "formal_runs_before_lock": 0
+}

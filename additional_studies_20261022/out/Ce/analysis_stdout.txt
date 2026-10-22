@@ -1,0 +1,117 @@
+== primary
+== secondary
+rbpK02 - rbpK01                                          10000 hv_normali +0.016196 [+0.015377, +0.017013] 16/0/0 p=3.05e-05
+rbpK04 - rbpK01                                          10000 hv_normali +0.030958 [+0.029756, +0.032244] 16/0/0 p=3.05e-05
+rbpK08 - rbpK01                                          10000 hv_normali +0.042044 [+0.040324, +0.043689] 16/0/0 p=3.05e-05
+rbpK16 - rbpK01                                          10000 hv_normali +0.051741 [+0.049470, +0.054008] 16/0/0 p=3.05e-05
+rbpK08 - rbpK04                                          10000 hv_normali +0.011086 [+0.010086, +0.011929] 15/0/1 p=6.1e-05
+rbpK16 - rbpK04                                          10000 hv_normali +0.020783 [+0.019169, +0.022211] 16/0/0 p=3.05e-05
+nsga2tK02 - nsga2tK01                                    10000 hv_normali +0.009605 [+0.008398, +0.010727] 16/0/0 p=3.05e-05
+nsga2tK04 - nsga2tK01                                    10000 hv_normali +0.019648 [+0.018368, +0.020775] 16/0/0 p=3.05e-05
+nsga2tK08 - nsga2tK01                                    10000 hv_normali +0.027438 [+0.026065, +0.028798] 16/0/0 p=3.05e-05
+nsga2tK16 - nsga2tK01                                    10000 hv_normali +0.035289 [+0.033682, +0.036887] 16/0/0 p=3.05e-05
+nsga2tK08 - nsga2tK04                                    10000 hv_normali +0.007790 [+0.006502, +0.009086] 16/0/0 p=3.05e-05
+nsga2tK16 - nsga2tK04                                    10000 hv_normali +0.015640 [+0.014538, +0.016706] 16/0/0 p=3.05e-05
+{
+ "nsga2tK01": {
+  "hv": 0.2565805852900799,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9980905273143111,
+  "eval_share": 0.5726541687965654,
+  "score_share": 0.0,
+  "makespan_min": 1326.0232654749916,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2tK02": {
+  "hv": 0.266185260519058,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9982659686668137,
+  "eval_share": 0.4706051448025939,
+  "score_share": 0.16398468403747044,
+  "makespan_min": 1291.476361690076,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2tK04": {
+  "hv": 0.27622899015050134,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9984232087762742,
+  "eval_share": 0.4002535875141962,
+  "score_share": 0.26611134138698334,
+  "makespan_min": 1235.678071719861,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2tK08": {
+  "hv": 0.2840186581455305,
+  "evaluations": 10000,
+  "cpu_ratio": 0.998499138779694,
+  "eval_share": 0.3095535043907662,
+  "score_share": 0.4009517235099209,
+  "makespan_min": 1203.7474817683867,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2tK16": {
+  "hv": 0.29186913936384196,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9990406322131861,
+  "eval_share": 0.21385517131030435,
+  "score_share": 0.5418279737624258,
+  "makespan_min": 1162.3283671493425,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbpK01": {
+  "hv": 0.26946642573428803,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9980788684347879,
+  "eval_share": 0.5862408494044122,
+  "score_share": 0.0,
+  "makespan_min": 1198.4388785132016,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbpK02": {
+  "hv": 0.28566225774974296,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9986996846747103,
+  "eval_share": 0.4660687346922875,
+  "score_share": 0.15811885141200013,
+  "makespan_min": 1122.4576315821735,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbpK04": {
+  "hv": 0.30042445027005,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9983435414422361,
+  "eval_share": 0.3974369732889712,
+  "score_share": 0.2602267708895307,
+  "makespan_min": 1054.215109796482,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbpK08": {
+  "hv": 0.31151015781181063,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9981275707434223,
+  "eval_share": 0.30662121024566985,
+  "score_share": 0.3912065128924047,
+  "makespan_min": 998.7621933911081,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbpK16": {
+  "hv": 0.3212077215796376,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9987691720022778,
+  "eval_share": 0.21241975937911853,
+  "score_share": 0.5345402983212186,
+  "makespan_min": 953.2840746059356,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ }
+}
+{'compared_runs': 720, 'mismatched': 0, 'status': 'PASS'}

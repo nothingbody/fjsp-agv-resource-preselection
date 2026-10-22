@@ -1,5 +1,9 @@
 # Resource-demand preselection for FJSP-AGV scheduling
 
+## Tuned comparisons and supplementary evidence release v1.4.0
+
+The [v1.4.0 release](https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.4.0) adds 30,624 complete formal optimization records and 80 CP-SAT relaxation records for standard-algorithm tuning, candidate-pool size and cost, stochastic evaluation, and default/tuned DQNMA-type and ILMPEA-type adaptations. Generated inputs, frozen task tables and configurations, saved analyses, per-run summaries, verification tools and figure sources are in [additional_studies_20261022](additional_studies_20261022/README.md). The three raw-record TAR assets preserve every new formal compressed run output, including saved fronts and chromosomes. All nonsignificant and unfavorable findings remain included. Author-owned code is MIT and generated data are CC BY 4.0. Earlier releases remain unchanged.
+
 ## Supplementary studies release v1.3.0
 
 The [v1.3.0 release](https://github.com/nothingbody/fjsp-agv-resource-preselection/releases/tag/v1.3.0) adds three studies used in the revised manuscript *Resource-bound preselection for flexible job-shop scheduling with automated guided vehicles: when analytic candidate ranking pays off*. In that manuscript the method is called resource-bound preselection (RBP); the earlier Always-scored configuration is RBP, and Physical-four is RBP-P4.

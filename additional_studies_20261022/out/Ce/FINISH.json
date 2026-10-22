@@ -1,0 +1,13 @@
+{
+  "protocol": "exp2_20261019_v1",
+  "tasks_file": "tasks/Ce.json",
+  "tasks": 2400,
+  "attempted": 2400,
+  "passed": 2400,
+  "failed": 0,
+  "formal": true,
+  "lock_sha256": "3e5ee3df310c4cfbb43b4a90d889a04f0cc47b0186efbe6208d4a18d70ff8bd2",
+  "code_sha256": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "hours": 5.456629543768035,
+  "finished_utc": "2026-10-19T19:57:00Z"
+}

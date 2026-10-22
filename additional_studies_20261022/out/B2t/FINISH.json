@@ -1,0 +1,13 @@
+{
+  "protocol": "exp2_20261019_v1",
+  "tasks_file": "tasks/B2t.json",
+  "tasks": 1920,
+  "attempted": 1920,
+  "passed": 1920,
+  "failed": 0,
+  "formal": true,
+  "lock_sha256": "e70828864c9ca73c31ef92b70e7ef9c7b73c2bc778c4551a2319bf09a6736b64",
+  "code_sha256": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "hours": 2.319106508758333,
+  "finished_utc": "2026-10-19T22:16:09Z"
+}

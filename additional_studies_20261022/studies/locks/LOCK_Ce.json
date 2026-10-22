@@ -1,0 +1,20 @@
+{
+ "protocol": "exp2_20261019_v1",
+ "study": "Ce",
+ "files": {
+  "exp2_core.py": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "exp2_run.py": "e87f31a694056f8dde68ad69bf50701e44b6dadf6b10276770e2a345f6053773",
+  "exp2_tasks.py": "d5dcf847d234e17d2951abf3ea872c12e9c171e50a92eb439651dcddba56076f",
+  "exp2_selftest.py": "67bd999a25a582357d8ffb599ba58223efc46362b03235597d53bfc2207b7781",
+  "exp2_cpsat.py": "310804d20ad405accc75912631be71ec79bbfb356e35b4c16df6695d99dd2c9b",
+  "PROTOCOL.md": "5ba4a78ae46d2675c5a576d2af5da6995ab1f97936565bf26bb1d2cc764cc3b7",
+  "inputs/INPUT_MANIFEST.json": "38f739fdc59a9d2ce3d47899f8eaacd701c9e353d67b8439a3957b15dce28c6e",
+  "SELECTION.json": "6899cbfcd861d1768d30df63029c40e9769e4fdb58e1ccc3d92e73dc6a5171f3",
+  "ENV_FREEZE.txt": "43eb248bf57e472060aad9967b94f0657ea0659682857cdc8672caebe3e28130"
+ },
+ "tasks_file": "tasks/Ce.json",
+ "tasks_sha256": "2f8187ee1b975240984ac2539b906994651280ad54995a63131528b5a6b5875f",
+ "tasks": 2400,
+ "created_utc": "2026-10-19T11:45:00Z",
+ "formal_runs_before_lock": 0
+}

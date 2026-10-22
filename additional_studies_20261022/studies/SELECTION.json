@@ -1,0 +1,442 @@
+{
+ "nsga2": {
+  "arm": "nsga2c12",
+  "params": {
+   "pop": 50,
+   "op": "joint"
+  },
+  "mean_rank": 1.9166666666666667,
+  "mean_hv": 0.2534040792824385,
+  "rule": "minimum mean within-cell rank of 10,000-evaluation HV; tie: higher mean HV"
+ },
+ "nsga2_table": [
+  {
+   "arm": "nsga2c12",
+   "params": {
+    "pop": 50,
+    "op": "joint"
+   },
+   "mean_rank": 1.9166666666666667,
+   "mean_hv": 0.2534040792824385
+  },
+  {
+   "arm": "nsga2c13",
+   "params": {
+    "pop": 100,
+    "op": "joint"
+   },
+   "mean_rank": 3.9166666666666665,
+   "mean_hv": 0.24365613902784755
+  },
+  {
+   "arm": "nsga2c00",
+   "params": {
+    "pop": 50,
+    "pc": 0.7,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 4.291666666666667,
+   "mean_hv": 0.242960367055256
+  },
+  {
+   "arm": "nsga2c02",
+   "params": {
+    "pop": 50,
+    "pc": 0.9,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 5.854166666666667,
+   "mean_hv": 0.24039505052366283
+  },
+  {
+   "arm": "nsga2c04",
+   "params": {
+    "pop": 100,
+    "pc": 0.7,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 6.125,
+   "mean_hv": 0.23813453043340446
+  },
+  {
+   "arm": "nsga2c06",
+   "params": {
+    "pop": 100,
+    "pc": 0.9,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 6.979166666666667,
+   "mean_hv": 0.23573183682870047
+  },
+  {
+   "arm": "nsga2c01",
+   "params": {
+    "pop": 50,
+    "pc": 0.7,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 7.145833333333333,
+   "mean_hv": 0.23650893293402028
+  },
+  {
+   "arm": "nsga2c14",
+   "params": {
+    "pop": 200,
+    "op": "joint"
+   },
+   "mean_rank": 7.770833333333333,
+   "mean_hv": 0.23259441192064004
+  },
+  {
+   "arm": "nsga2c03",
+   "params": {
+    "pop": 50,
+    "pc": 0.9,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 7.833333333333333,
+   "mean_hv": 0.23445437801832378
+  },
+  {
+   "arm": "nsga2c05",
+   "params": {
+    "pop": 100,
+    "pc": 0.7,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 8.354166666666666,
+   "mean_hv": 0.23175549673858167
+  },
+  {
+   "arm": "nsga2c07",
+   "params": {
+    "pop": 100,
+    "pc": 0.9,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 9.5625,
+   "mean_hv": 0.22897479316669297
+  },
+  {
+   "arm": "nsga2c08",
+   "params": {
+    "pop": 200,
+    "pc": 0.7,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 11.083333333333334,
+   "mean_hv": 0.22392727449431546
+  },
+  {
+   "arm": "nsga2c10",
+   "params": {
+    "pop": 200,
+    "pc": 0.9,
+    "pm": 1.0,
+    "op": "std"
+   },
+   "mean_rank": 12.333333333333334,
+   "mean_hv": 0.22122004899279482
+  },
+  {
+   "arm": "nsga2c09",
+   "params": {
+    "pop": 200,
+    "pc": 0.7,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 12.75,
+   "mean_hv": 0.21953171488283232
+  },
+  {
+   "arm": "nsga2c11",
+   "params": {
+    "pop": 200,
+    "pc": 0.9,
+    "pm": 3.0,
+    "op": "std"
+   },
+   "mean_rank": 14.083333333333334,
+   "mean_hv": 0.21480056719909313
+  }
+ ],
+ "moead": {
+  "arm": "moeadc18",
+  "params": {
+   "H": 8,
+   "T": 10,
+   "delta": 0.9,
+   "nr": 2,
+   "op": "joint"
+  },
+  "mean_rank": 5.708333333333333,
+  "mean_hv": 0.2602016514795543,
+  "rule": "minimum mean within-cell rank of 10,000-evaluation HV; tie: higher mean HV"
+ },
+ "moead_table": [
+  {
+   "arm": "moeadc18",
+   "params": {
+    "H": 8,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "joint"
+   },
+   "mean_rank": 5.708333333333333,
+   "mean_hv": 0.2602016514795543
+  },
+  {
+   "arm": "moeadc03",
+   "params": {
+    "H": 8,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 5.729166666666667,
+   "mean_hv": 0.2552949244763441
+  },
+  {
+   "arm": "moeadc01",
+   "params": {
+    "H": 8,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 6.9375,
+   "mean_hv": 0.25346236779743797
+  },
+  {
+   "arm": "moeadc09",
+   "params": {
+    "H": 12,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 7.4375,
+   "mean_hv": 0.2515242504937197
+  },
+  {
+   "arm": "moeadc11",
+   "params": {
+    "H": 12,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 7.5,
+   "mean_hv": 0.252114913578112
+  },
+  {
+   "arm": "moeadc05",
+   "params": {
+    "H": 8,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 7.645833333333333,
+   "mean_hv": 0.25209229468742467
+  },
+  {
+   "arm": "moeadc19",
+   "params": {
+    "H": 12,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "joint"
+   },
+   "mean_rank": 8.604166666666666,
+   "mean_hv": 0.2506296990974159
+  },
+  {
+   "arm": "moeadc02",
+   "params": {
+    "H": 8,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 9.3125,
+   "mean_hv": 0.24869845882833239
+  },
+  {
+   "arm": "moeadc07",
+   "params": {
+    "H": 12,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 9.354166666666666,
+   "mean_hv": 0.2488163971954573
+  },
+  {
+   "arm": "moeadc00",
+   "params": {
+    "H": 8,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 9.708333333333334,
+   "mean_hv": 0.248472374918402
+  },
+  {
+   "arm": "moeadc04",
+   "params": {
+    "H": 8,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 10.229166666666666,
+   "mean_hv": 0.24640405133171273
+  },
+  {
+   "arm": "moeadc15",
+   "params": {
+    "H": 16,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 10.625,
+   "mean_hv": 0.24681268855232205
+  },
+  {
+   "arm": "moeadc17",
+   "params": {
+    "H": 16,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 11.5625,
+   "mean_hv": 0.24440095879625515
+  },
+  {
+   "arm": "moeadc08",
+   "params": {
+    "H": 12,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 12.5625,
+   "mean_hv": 0.2440449274812522
+  },
+  {
+   "arm": "moeadc20",
+   "params": {
+    "H": 16,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "joint"
+   },
+   "mean_rank": 13.125,
+   "mean_hv": 0.24172887668163692
+  },
+  {
+   "arm": "moeadc13",
+   "params": {
+    "H": 16,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 2,
+    "op": "std"
+   },
+   "mean_rank": 13.770833333333334,
+   "mean_hv": 0.24221800568319207
+  },
+  {
+   "arm": "moeadc10",
+   "params": {
+    "H": 12,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 13.9375,
+   "mean_hv": 0.24152323565233436
+  },
+  {
+   "arm": "moeadc06",
+   "params": {
+    "H": 12,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 14.291666666666666,
+   "mean_hv": 0.24068309374105648
+  },
+  {
+   "arm": "moeadc14",
+   "params": {
+    "H": 16,
+    "T": 10,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 17.083333333333332,
+   "mean_hv": 0.23428381796005968
+  },
+  {
+   "arm": "moeadc16",
+   "params": {
+    "H": 16,
+    "T": 20,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 17.895833333333332,
+   "mean_hv": 0.2330466197629821
+  },
+  {
+   "arm": "moeadc12",
+   "params": {
+    "H": 16,
+    "T": 5,
+    "delta": 0.9,
+    "nr": 1,
+    "op": "std"
+   },
+   "mean_rank": 17.979166666666668,
+   "mean_hv": 0.2329444267878287
+  }
+ ],
+ "cells_per_family": 48,
+ "created_utc": "2026-10-19T11:44:59Z"
+}

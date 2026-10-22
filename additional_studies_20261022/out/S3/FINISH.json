@@ -1,0 +1,12 @@
+{
+  "protocol": "exp3b_adapted_20261021_v1",
+  "tasks_file": "tasks/S3.json",
+  "tasks": 1440,
+  "attempted": 1440,
+  "passed": 1440,
+  "failed": 0,
+  "formal": true,
+  "lock_sha256": "500668d0ecbd5e9b8cbe002614e04fec93b2428ae2b6c039f56713431ee0a89b",
+  "hours": 5.157315461238225,
+  "finished_utc": "2026-10-21T21:43:06Z"
+}

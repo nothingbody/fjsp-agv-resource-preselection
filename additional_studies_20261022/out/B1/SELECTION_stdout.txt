@@ -1,0 +1,25 @@
+{
+ "nsga2": {
+  "arm": "nsga2c12",
+  "params": {
+   "pop": 50,
+   "op": "joint"
+  },
+  "mean_rank": 1.9166666666666667,
+  "mean_hv": 0.2534040792824385,
+  "rule": "minimum mean within-cell rank of 10,000-evaluation HV; tie: higher mean HV"
+ },
+ "moead": {
+  "arm": "moeadc18",
+  "params": {
+   "H": 8,
+   "T": 10,
+   "delta": 0.9,
+   "nr": 2,
+   "op": "joint"
+  },
+  "mean_rank": 5.708333333333333,
+  "mean_hv": 0.2602016514795543,
+  "rule": "minimum mean within-cell rank of 10,000-evaluation HV; tie: higher mean HV"
+ }
+}

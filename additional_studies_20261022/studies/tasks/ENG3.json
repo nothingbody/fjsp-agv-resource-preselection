@@ -1,0 +1,3842 @@
+[
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__rbp@t",
+"arm": "rbp@t",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea_rbp@t",
+"arm": "ilmpea_rbp@t",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea_rbp@e",
+"arm": "ilmpea_rbp@e",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__nsga2t@t",
+"arm": "nsga2t@t",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma@b",
+"arm": "dqnma@b",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__rbp@e",
+"arm": "rbp@e",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__ilmpea@t",
+"arm": "ilmpea@t",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__dqnma_rbp@b",
+"arm": "dqnma_rbp@b",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__nsga2t@b",
+"arm": "nsga2t@b",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a5_t015__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_low_00_a5_t015",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a5_t015.json",
+"input_sha256": "c8e369d4d3d70d720827787e736f414e3671739ccae9059e42c331aa7ffec081",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea@e",
+"arm": "ilmpea@e",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a1_t060__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_medium_high_00_a1_t060",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a1_t060.json",
+"input_sha256": "87a3177d3cc3478013490d3bd2a40b941d3b0e10805fbc47ae4b214f9de7c476",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a5_t015__2026102801__dqnma_rbp@t",
+"arm": "dqnma_rbp@t",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a5_t015",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a5_t015.json",
+"input_sha256": "0148cd2bd1349d2ae6477e7d9aef24950f2f9c936af8ebd1eeacf22565d725a0",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__ilmpea@b",
+"arm": "ilmpea@b",
+"method": "ilmpea",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "ilmpea",
+"params": {}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_low_00_a1_t060__2026102801__rbp@b",
+"arm": "rbp@b",
+"method": "rbp",
+"panel": "eng",
+"name": "eng_medium_low_00_a1_t060",
+"base_id": "eng_medium_low_00",
+"stratum": "medium_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_low_00_a1_t060.json",
+"input_sha256": "b7962927c2834fc7fd23f02f537e6aa3f58133291c58a74265eb0202b1be001b",
+"algo": {
+"family": "rbp",
+"params": {
+"K": 4,
+"period": 0
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 216
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_low_00_a1_t060__2026102801__ilmpea_rbp@b",
+"arm": "ilmpea_rbp@b",
+"method": "ilmpea_rbp",
+"panel": "eng",
+"name": "eng_small_low_00_a1_t060",
+"base_id": "eng_small_low_00",
+"stratum": "small_low",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_low_00_a1_t060.json",
+"input_sha256": "7dc3fdcc54d0cbc6d59eb5797fcd6ee4fa831e73081d50560cad90d40dca9fc9",
+"algo": {
+"family": "ilmpea",
+"params": {
+"K": 4
+}
+},
+"objectives": 2,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 50
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a5_t015__2026102801__dqnma@e",
+"arm": "dqnma@e",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a5_t015",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a5_t015.json",
+"input_sha256": "6a3668e027a41ad391b3e3336c836dc2dd745eec41dad12736d32f1b99d1ee9a",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma@t",
+"arm": "dqnma@t",
+"method": "dqnma",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {}
+},
+"objectives": 3,
+"mode": "time",
+"endpoints": [
+10.0,
+20.0
+],
+"operations": 51
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_medium_high_00_a5_t015__2026102801__nsga2t@e",
+"arm": "nsga2t@e",
+"method": "nsga2t",
+"panel": "eng",
+"name": "eng_medium_high_00_a5_t015",
+"base_id": "eng_medium_high_00",
+"stratum": "medium_high",
+"regime": "a5_t015",
+"seed": 2026102801,
+"input": "inputs/eng/eng_medium_high_00_a5_t015.json",
+"input_sha256": "3af16a91ff637dbe8d07f34fa66eb7515fecf3048c8d9d893bae9aa624f27e93",
+"algo": {
+"family": "nsga2",
+"params": {
+"pop": 50,
+"op": "joint"
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 234
+},
+{
+"study": "ENG3",
+"id": "ENG3__eng_small_high_00_a1_t060__2026102801__dqnma_rbp@e",
+"arm": "dqnma_rbp@e",
+"method": "dqnma_rbp",
+"panel": "eng",
+"name": "eng_small_high_00_a1_t060",
+"base_id": "eng_small_high_00",
+"stratum": "small_high",
+"regime": "a1_t060",
+"seed": 2026102801,
+"input": "inputs/eng/eng_small_high_00_a1_t060.json",
+"input_sha256": "32a02001639fcd74922fca5bec97af4f91c17a7233c283153d15a708842ee774",
+"algo": {
+"family": "dqnma",
+"params": {
+"K": 4
+}
+},
+"objectives": 3,
+"mode": "eval",
+"endpoints": [
+1000,
+2000
+],
+"operations": 51
+}
+]

@@ -1,0 +1,20 @@
+{
+ "protocol": "exp3b_adapted_20261021_v1",
+ "study": "S2",
+ "files": {
+  "exp2_core.py": "11fbb112e7dd5af723c002b15b44ecc02c47200dc900df4b534647e32df175e8",
+  "exp3b_rivals.py": "a9206fdf1cd1d315289b50bd4a5ab4362b48a40d18e314476f830d6fba9f83ca",
+  "exp3b_run.py": "afee0b8814944e8f7519bc27712e16aa2ac82f784aec377c67b0cf1cd9480bdd",
+  "exp3b_tasks.py": "63c4df43885cf0c83edf70483533bb24787f4b7a071bd5bcdd1f22eb152eb29b",
+  "PROTOCOL_exp3b.md": "4fcc63981996c83d2d4e258a16582ffa10e99cf394f5c340e3685081db2f51b8",
+  "inputs/INPUT_MANIFEST.json": "38f739fdc59a9d2ce3d47899f8eaacd701c9e353d67b8439a3957b15dce28c6e",
+  "SELECTION.json": "6899cbfcd861d1768d30df63029c40e9769e4fdb58e1ccc3d92e73dc6a5171f3",
+  "ENV_FREEZE.txt": "43eb248bf57e472060aad9967b94f0657ea0659682857cdc8672caebe3e28130",
+  "SELECTION_exp3b.json": "1eb5bf455cb50acbe54a1316c6929b1888529ca131cf04049fd526032cb28b0b"
+ },
+ "tasks_file": "tasks/S2.json",
+ "tasks_sha256": "7601bbfefeb0cc1842b78a72675275276b21dabdb1b526bca17bbceefc0560c7",
+ "tasks": 1440,
+ "created_utc": "2026-10-21T12:29:46Z",
+ "formal_runs_before_lock": 0
+}

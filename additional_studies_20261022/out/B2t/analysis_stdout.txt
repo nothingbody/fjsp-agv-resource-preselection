@@ -1,0 +1,108 @@
+== primary
+rbp - nsga2t                                             120.0 hv_normali +0.029318 [+0.027621, +0.030919] 16/0/0 p=3.05e-05 holm=0.000153
+rbp - moeadt                                             120.0 hv_normali +0.018743 [+0.017327, +0.020255] 16/0/0 p=3.05e-05 holm=0.000153
+nsga2t_rbp - nsga2t                                      120.0 hv_normali +0.007768 [+0.006600, +0.008855] 16/0/0 p=3.05e-05 holm=0.000153
+moeadt_rbp - moeadt                                      120.0 hv_normali +0.013225 [+0.011730, +0.014811] 16/0/0 p=3.05e-05 holm=0.000153
+rbp - r4                                                 120.0 hv_normali +0.017716 [+0.016488, +0.018919] 16/0/0 p=3.05e-05 holm=0.000153
+== secondary
+nsga2t - nsga2_def                                       120.0 hv_normali +0.011743 [+0.009277, +0.014321] 15/0/1 p=0.000122
+moeadt - moead_def                                       120.0 hv_normali +0.007667 [+0.006194, +0.009152] 12/0/4 p=0.00467
+rbp - nsga2_def                                          120.0 hv_normali +0.041061 [+0.038280, +0.043991] 16/0/0 p=3.05e-05
+rbp - moead_def                                          120.0 hv_normali +0.026410 [+0.024155, +0.028897] 16/0/0 p=3.05e-05
+moeadt - nsga2t                                          120.0 hv_normali +0.010575 [+0.008539, +0.012553] 14/0/2 p=0.000549
+nsga2t_rbp - rbp                                         120.0 hv_normali -0.021550 [-0.023258, -0.019591] 0/0/16 p=3.05e-05
+moeadt_rbp - rbp                                         120.0 hv_normali -0.005518 [-0.007265, -0.003780] 2/0/14 p=0.000488
+r4 - nsga2t                                              120.0 hv_normali +0.011602 [+0.010162, +0.013018] 16/0/0 p=3.05e-05
+r4 - moeadt                                              120.0 hv_normali +0.001027 [-0.000174, +0.002185] 10/0/6 p=0.333
+rbp - nsga2t                                              60.0 hv_normali +0.023256 [+0.021377, +0.024967] 16/0/0 p=3.05e-05
+rbp - moeadt                                              60.0 hv_normali +0.013777 [+0.012097, +0.015542] 16/0/0 p=3.05e-05
+nsga2t_rbp - nsga2t                                       60.0 hv_normali +0.005343 [+0.004405, +0.006216] 15/0/1 p=6.1e-05
+moeadt_rbp - moeadt                                       60.0 hv_normali +0.011394 [+0.009988, +0.012850] 16/0/0 p=3.05e-05
+rbp - r4                                                  60.0 hv_normali +0.014938 [+0.013640, +0.016274] 16/0/0 p=3.05e-05
+rbp - nsga2t                                             120.0 hv_wide_no +0.029444 [+0.027736, +0.031049] 16/0/0 p=3.05e-05
+rbp - moeadt                                             120.0 hv_wide_no +0.022375 [+0.020976, +0.023767] 16/0/0 p=3.05e-05
+nsga2t_rbp - nsga2t                                      120.0 hv_wide_no +0.006066 [+0.005033, +0.007043] 16/0/0 p=3.05e-05
+moeadt_rbp - moeadt                                      120.0 hv_wide_no +0.011718 [+0.010199, +0.013318] 16/0/0 p=3.05e-05
+rbp - r4                                                 120.0 hv_wide_no +0.016496 [+0.015381, +0.017572] 16/0/0 p=3.05e-05
+{
+ "moead_def": {
+  "hv": 0.2531887389176993,
+  "evaluations": 12702.291666666666,
+  "cpu_ratio": 0.999705164304991,
+  "eval_share": 0.6651096064023421,
+  "score_share": 0.0,
+  "makespan_min": 1362.7353852317406,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "moeadt": {
+  "hv": 0.26085574062675887,
+  "evaluations": 11579.875,
+  "cpu_ratio": 0.9997009745601082,
+  "eval_share": 0.6229335429492563,
+  "score_share": 0.0,
+  "makespan_min": 1303.801246899438,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "moeadt_rbp": {
+  "hv": 0.27408085673240595,
+  "evaluations": 7677.208333333333,
+  "cpu_ratio": 0.9997178049592665,
+  "eval_share": 0.42953282178200347,
+  "score_share": 0.28588874981022266,
+  "makespan_min": 1238.5135416929056,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2_def": {
+  "hv": 0.23853814312691193,
+  "evaluations": 12418.708333333334,
+  "cpu_ratio": 0.9996864556744375,
+  "eval_share": 0.6579606780244448,
+  "score_share": 0.0,
+  "makespan_min": 1486.740851937693,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2t": {
+  "hv": 0.2502812268213673,
+  "evaluations": 10041.083333333334,
+  "cpu_ratio": 0.9997498368154064,
+  "eval_share": 0.5628327012773361,
+  "score_share": 0.0,
+  "makespan_min": 1392.2009054543594,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2t_rbp": {
+  "hv": 0.2580487626847566,
+  "evaluations": 7154.375,
+  "cpu_ratio": 0.9997339909686634,
+  "eval_share": 0.41038938622538584,
+  "score_share": 0.27062568842808665,
+  "makespan_min": 1356.1422038828591,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "r4": {
+  "hv": 0.2618830794395437,
+  "evaluations": 9440.541666666666,
+  "cpu_ratio": 0.9995687408122833,
+  "eval_share": 0.5532778032891843,
+  "score_share": 0.0,
+  "makespan_min": 1269.4436762386154,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbp": {
+  "hv": 0.2795987932580646,
+  "evaluations": 6938.708333333333,
+  "cpu_ratio": 0.9996996393156409,
+  "eval_share": 0.40721947383893436,
+  "score_share": 0.2657290037879793,
+  "makespan_min": 1176.8392471804902,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ }
+}

@@ -1,0 +1,113 @@
+== primary
+rbp - nsga2t                                             10000 hv_normali +0.043844 [+0.042033, +0.045681] 16/0/0 p=3.05e-05 holm=0.000153
+rbp - moeadt                                             10000 hv_normali +0.036854 [+0.034200, +0.039587] 16/0/0 p=3.05e-05 holm=0.000153
+nsga2t_rbp - nsga2t                                      10000 hv_normali +0.019648 [+0.018368, +0.020775] 16/0/0 p=3.05e-05 holm=0.000153
+moeadt_rbp - moeadt                                      10000 hv_normali +0.026373 [+0.024876, +0.027813] 16/0/0 p=3.05e-05 holm=0.000153
+rbp - r4                                                 10000 hv_normali +0.030065 [+0.028784, +0.031390] 16/0/0 p=3.05e-05 holm=0.000153
+== secondary
+nsga2t - nsga2_def                                       10000 hv_normali +0.018467 [+0.016086, +0.021087] 16/0/0 p=3.05e-05
+moeadt - moead_def                                       10000 hv_normali +0.010185 [+0.008700, +0.011689] 13/0/3 p=0.000793
+rbp - nsga2_def                                          10000 hv_normali +0.062311 [+0.059016, +0.065940] 16/0/0 p=3.05e-05
+rbp - moead_def                                          10000 hv_normali +0.047039 [+0.043560, +0.050699] 16/0/0 p=3.05e-05
+moeadt - nsga2t                                          10000 hv_normali +0.006989 [+0.004864, +0.009146] 11/0/5 p=0.0157
+nsga2t_rbp - rbp                                         10000 hv_normali -0.024195 [-0.026088, -0.022132] 0/0/16 p=3.05e-05
+moeadt_rbp - rbp                                         10000 hv_normali -0.010482 [-0.013228, -0.007800] 1/0/15 p=6.1e-05
+r4 - nsga2t                                              10000 hv_normali +0.013778 [+0.012489, +0.015064] 16/0/0 p=3.05e-05
+r4 - moeadt                                              10000 hv_normali +0.006789 [+0.005063, +0.008471] 13/0/3 p=0.000305
+rbp - nsga2t                                              2000 hv_normali +0.033233 [+0.031202, +0.035154] 16/0/0 p=3.05e-05
+rbp - nsga2t                                              5000 hv_normali +0.041042 [+0.039172, +0.042875] 16/0/0 p=3.05e-05
+rbp - moeadt                                              2000 hv_normali +0.024247 [+0.021940, +0.026719] 16/0/0 p=3.05e-05
+rbp - moeadt                                              5000 hv_normali +0.032683 [+0.030277, +0.035247] 16/0/0 p=3.05e-05
+nsga2t_rbp - nsga2t                                       2000 hv_normali +0.014838 [+0.013381, +0.016308] 16/0/0 p=3.05e-05
+nsga2t_rbp - nsga2t                                       5000 hv_normali +0.018604 [+0.017166, +0.019961] 16/0/0 p=3.05e-05
+moeadt_rbp - moeadt                                       2000 hv_normali +0.022024 [+0.020607, +0.023361] 16/0/0 p=3.05e-05
+moeadt_rbp - moeadt                                       5000 hv_normali +0.025410 [+0.023736, +0.027119] 16/0/0 p=3.05e-05
+rbp - r4                                                  2000 hv_normali +0.024974 [+0.023592, +0.026423] 16/0/0 p=3.05e-05
+rbp - r4                                                  5000 hv_normali +0.029567 [+0.028099, +0.031069] 16/0/0 p=3.05e-05
+rbp - nsga2t                                             10000 hv_wide_no +0.042075 [+0.040585, +0.043548] 16/0/0 p=3.05e-05
+rbp - moeadt                                             10000 hv_wide_no +0.038623 [+0.036201, +0.041011] 16/0/0 p=3.05e-05
+nsga2t_rbp - nsga2t                                      10000 hv_wide_no +0.016669 [+0.015483, +0.017771] 16/0/0 p=3.05e-05
+moeadt_rbp - moeadt                                      10000 hv_wide_no +0.023477 [+0.021955, +0.024935] 16/0/0 p=3.05e-05
+rbp - r4                                                 10000 hv_wide_no +0.027235 [+0.026159, +0.028365] 16/0/0 p=3.05e-05
+{
+ "moead_def": {
+  "hv": 0.2533851234221668,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9995703830980891,
+  "eval_share": 0.685002980464827,
+  "score_share": 0.0,
+  "makespan_min": 1331.8949862840739,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "moeadt": {
+  "hv": 0.2635700378020524,
+  "evaluations": 10000,
+  "cpu_ratio": 0.999747779502997,
+  "eval_share": 0.6380387259900534,
+  "score_share": 0.0,
+  "makespan_min": 1260.23435168368,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "moeadt_rbp": {
+  "hv": 0.2899427949119405,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9997210852321161,
+  "eval_share": 0.41794096759828797,
+  "score_share": 0.2838956088323125,
+  "makespan_min": 1133.807235318903,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2_def": {
+  "hv": 0.23811388445800452,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9996489442214377,
+  "eval_share": 0.6842820896846268,
+  "score_share": 0.0,
+  "makespan_min": 1460.6371384913273,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2t": {
+  "hv": 0.2565805852900799,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9997384918598672,
+  "eval_share": 0.5670440616305513,
+  "score_share": 0.0,
+  "makespan_min": 1326.0232654749916,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "nsga2t_rbp": {
+  "hv": 0.27622899015050134,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9996810933872333,
+  "eval_share": 0.3946368261760167,
+  "score_share": 0.2657596001497561,
+  "makespan_min": 1235.678071719861,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "r4": {
+  "hv": 0.2703590743558724,
+  "evaluations": 10000,
+  "cpu_ratio": 0.99973465092736,
+  "eval_share": 0.5551838014760035,
+  "score_share": 0.0,
+  "makespan_min": 1192.8856928142757,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ },
+ "rbp": {
+  "hv": 0.30042445027005,
+  "evaluations": 10000,
+  "cpu_ratio": 0.9997728357547306,
+  "eval_share": 0.39331664221403717,
+  "score_share": 0.262257077414111,
+  "makespan_min": 1054.215109796482,
+  "runs": 240,
+  "runs_cpu_ratio_below_0_9": 0
+ }
+}
